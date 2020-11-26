@@ -5,6 +5,9 @@ $(function () {
             return false
         }
     })
+    $('#btnCotacao').click(function (){
+        $('#cotacao').attr('value', $('#valorCotacao').val() )
+    })    
 
 })
 /*
